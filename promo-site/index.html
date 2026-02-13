@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>智心一梦个人助手</title>
+    <meta id="metaDescription" name="description" content="集成数字员工、智能会议、效率工具，打造专属你的智能工作流。不再是冰冷的工具，而是懂你的工作伙伴。" />
+    <meta property="og:type" content="website" />
+    <meta id="ogTitle" property="og:title" content="智心一梦个人助手" />
+    <meta id="ogDescription" property="og:description" content="集成数字员工、智能会议、效率工具，打造专属你的智能工作流。不再是冰冷的工具，而是懂你的工作伙伴。" />
+    <meta name="theme-color" content="#f4e4bc" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%2064%2064%27%3E%3Cdefs%3E%3CradialGradient%20id%3D%27g%27%20cx%3D%2730%25%27%20cy%3D%2730%25%27%20r%3D%2770%25%27%3E%3Cstop%20stop-color%3D%27%237cb9a8%27/%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%2385cdca%27/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect%20width%3D%2764%27%20height%3D%2764%27%20rx%3D%2724%27%20fill%3D%27url(%23g)%27/%3E%3Cpath%20d%3D%27M20%2038c6-2%208-10%2012-10s6%208%2012%2010%27%20stroke%3D%27white%27%20stroke-width%3D%275%27%20fill%3D%27none%27%20stroke-linecap%3D%27round%27/%3E%3C/svg%3E"
+    />
+    <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "ux026pd418");
+</script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="bg">
+      <div class="bg__glow bg__glow--a"></div>
+      <div class="bg__glow bg__glow--b"></div>
+      <div class="bg__grid"></div>
+    </div>
+
+    <header class="header">
+      <div class="container header__inner">
+        <a class="brand" href="#top" aria-label="智心一梦">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <!-- <span class="brand__name">智心一梦</span> -->
+          <span class="brand__badge" data-i18n="nav.badge"></span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <a class="nav__link" href="#features" data-i18n="nav.features"></a>
+          <a class="nav__link" href="#scenarios" data-i18n="nav.scenarios"></a>
+          <a class="nav__link" href="#ecosystem" data-i18n="nav.ecosystem"></a>
+          <a class="nav__link" href="#testimonials" data-i18n="nav.testimonials"></a>
+          <a class="nav__link" href="#download" data-i18n="nav.download"></a>
+          <a class="nav__link" href="#faq" data-i18n="nav.faq"></a>
+        </nav>
+
+        <div class="header__actions">
+          <button class="chip" type="button" id="langToggle" aria-label="Language Toggle">
+            <span class="chip__dot"></span>
+            <span class="chip__text" data-i18n="nav.lang"></span>
+          </button>
+          <a class="btn btn--primary" href="#download" data-i18n="nav.cta"></a>
+          <a href="https://github.com/Pankitgg/open-ai-tool" class="btn btn--ghost" target="_blank" aria-label="GitHub">
+            <svg height="20" width="20" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero__grid">
+          <div class="hero__copy">
+            <div class="kicker" data-i18n="hero.kicker"></div>
+            <h1 class="hero__title" data-i18n="hero.title"></h1>
+            <p class="hero__subtitle" data-i18n="hero.subtitle"></p>
+
+            <div class="hero__buttons">
+              <a class="btn btn--primary" href="#download" data-i18n="hero.primary"></a>
+              <a class="btn btn--ghost" href="#video" data-i18n="hero.secondary"></a>
+            </div>
+
+            <div class="hero__meta">
+              <div class="metaCard">
+                <div class="metaCard__k" data-i18n="hero.meta.a.k"></div>
+                <div class="metaCard__v" data-i18n="hero.meta.a.v"></div>
+              </div>
+              <div class="metaCard">
+                <div class="metaCard__k" data-i18n="hero.meta.b.k"></div>
+                <div class="metaCard__v" data-i18n="hero.meta.b.v"></div>
+              </div>
+              <div class="metaCard">
+                <div class="metaCard__k" data-i18n="hero.meta.c.k"></div>
+                <div class="metaCard__v" data-i18n="hero.meta.c.v"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__visual">
+            <div class="glassFrame">
+              <div class="glassFrame__top">
+                <div class="dots">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="glassFrame__title" data-i18n="hero.previewTitle"></div>
+              </div>
+              <div class="glassFrame__body">
+                <div class="preview">
+                  <div class="preview__card">
+                    <div class="preview__icon">⚡</div>
+                    <div class="preview__text">
+                      <div class="preview__h" data-i18n="hero.preview.a.h"></div>
+                      <div class="preview__p" data-i18n="hero.preview.a.p"></div>
+                    </div>
+                  </div>
+                  <div class="preview__card">
+                    <div class="preview__icon">🧠</div>
+                    <div class="preview__text">
+                      <div class="preview__h" data-i18n="hero.preview.b.h"></div>
+                      <div class="preview__p" data-i18n="hero.preview.b.p"></div>
+                    </div>
+                  </div>
+                  <div class="preview__card">
+                    <div class="preview__icon">🧩</div>
+                    <div class="preview__text">
+                      <div class="preview__h" data-i18n="hero.preview.c.h"></div>
+                      <div class="preview__p" data-i18n="hero.preview.c.p"></div>
+                    </div>
+                  </div>
+                  <div class="preview__chart">
+                    <div class="preview__chartTitle" data-i18n="hero.preview.chart"></div>
+                    <div class="bars">
+                      <span style="--h: 32%"></span>
+                      <span style="--h: 58%"></span>
+                      <span style="--h: 45%"></span>
+                      <span style="--h: 72%"></span>
+                      <span style="--h: 54%"></span>
+                      <span style="--h: 88%"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="glassFrame__bottom">
+                <div class="pill" data-i18n="hero.pill.a"></div>
+                <div class="pill pill--muted" data-i18n="hero.pill.b"></div>
+                <div class="pill pill--muted" data-i18n="hero.pill.c"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--tight">
+        <div class="container">
+          <div class="logos">
+            <div class="logos__label" data-i18n="logos.label"></div>
+            <div class="logos__row">
+              <!-- <div class="logoChip">Wails</div>
+              <div class="logoChip">Go</div>
+              <div class="logoChip">WebView2</div>
+              <div class="logoChip">Vue 3</div>
+              <div class="logoChip">Naive UI</div> -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="features">
+        <div class="container">
+          <div class="sectionHead">
+            <h2 class="sectionHead__title" data-i18n="features.title"></h2>
+            <p class="sectionHead__subtitle" data-i18n="features.subtitle"></p>
+          </div>
+
+          <div class="grid grid--3">
+            <div class="card">
+              <div class="card__icon">👥</div>
+              <h3 class="card__title" data-i18n="features.f1.t"></h3>
+              <p class="card__text" data-i18n="features.f1.d"></p>
+            </div>
+            <div class="card">
+              <div class="card__icon">🗣️</div>
+              <h3 class="card__title" data-i18n="features.f2.t"></h3>
+              <p class="card__text" data-i18n="features.f2.d"></p>
+            </div>
+            <div class="card">
+              <div class="card__icon">🧩</div>
+              <h3 class="card__title" data-i18n="features.f3.t"></h3>
+              <p class="card__text" data-i18n="features.f3.d"></p>
+            </div>
+            <div class="card">
+              <div class="card__icon">🌐</div>
+              <h3 class="card__title" data-i18n="features.f4.t"></h3>
+              <p class="card__text" data-i18n="features.f4.d"></p>
+            </div>
+            <div class="card">
+              <div class="card__icon">🐾</div>
+              <h3 class="card__title" data-i18n="features.f5.t"></h3>
+              <p class="card__text" data-i18n="features.f5.d"></p>
+            </div>
+            <div class="card">
+              <div class="card__icon">⚙️</div>
+              <h3 class="card__title" data-i18n="features.f6.t"></h3>
+              <p class="card__text" data-i18n="features.f6.d"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="scenarios">
+        <div class="container">
+          <div class="sectionHead">
+            <h2 class="sectionHead__title" data-i18n="scenarios.title"></h2>
+            <p class="sectionHead__subtitle" data-i18n="scenarios.subtitle"></p>
+          </div>
+
+          <div class="grid grid--2">
+            <div class="panel">
+              <div class="panel__head">
+                <div class="panel__tag" data-i18n="scenarios.s1.tag"></div>
+                <h3 class="panel__title" data-i18n="scenarios.s1.t"></h3>
+              </div>
+              <ul class="list">
+                <li data-i18n="scenarios.s1.p1"></li>
+                <li data-i18n="scenarios.s1.p2"></li>
+                <li data-i18n="scenarios.s1.p3"></li>
+              </ul>
+            </div>
+            <div class="panel">
+              <div class="panel__head">
+                <div class="panel__tag" data-i18n="scenarios.s2.tag"></div>
+                <h3 class="panel__title" data-i18n="scenarios.s2.t"></h3>
+              </div>
+              <ul class="list">
+                <li data-i18n="scenarios.s2.p1"></li>
+                <li data-i18n="scenarios.s2.p2"></li>
+                <li data-i18n="scenarios.s2.p3"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="ecosystem">
+        <div class="container">
+          <div class="sectionHead">
+            <h2 class="sectionHead__title" data-i18n="ecosystem.title"></h2>
+            <p class="sectionHead__subtitle" data-i18n="ecosystem.subtitle"></p>
+          </div>
+
+          <div class="grid grid--3">
+            <div class="card card--wide">
+              <div class="card__icon">🧱</div>
+              <h3 class="card__title" data-i18n="ecosystem.e1.t"></h3>
+              <p class="card__text" data-i18n="ecosystem.e1.d"></p>
+              <div class="chips">
+                <span class="chip chip--small" data-i18n="ecosystem.e1.c1"></span>
+                <span class="chip chip--small" data-i18n="ecosystem.e1.c2"></span>
+                <span class="chip chip--small" data-i18n="ecosystem.e1.c3"></span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__icon">📦</div>
+              <h3 class="card__title" data-i18n="ecosystem.e2.t"></h3>
+              <p class="card__text" data-i18n="ecosystem.e2.d"></p>
+            </div>
+            <div class="card">
+              <div class="card__icon">🔌</div>
+              <h3 class="card__title" data-i18n="ecosystem.e3.t"></h3>
+              <p class="card__text" data-i18n="ecosystem.e3.d"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="testimonials">
+        <div class="container">
+          <div class="sectionHead">
+            <h2 class="sectionHead__title" data-i18n="testimonials.title"></h2>
+            <p class="sectionHead__subtitle" data-i18n="testimonials.subtitle"></p>
+          </div>
+
+          <div class="grid grid--3">
+            <div class="card quote">
+              <div class="quote__text" data-i18n="testimonials.t1.q"></div>
+              <div class="quote__meta">
+                <div class="quote__name" data-i18n="testimonials.t1.n"></div>
+                <div class="quote__role" data-i18n="testimonials.t1.r"></div>
+              </div>
+            </div>
+            <div class="card quote">
+              <div class="quote__text" data-i18n="testimonials.t2.q"></div>
+              <div class="quote__meta">
+                <div class="quote__name" data-i18n="testimonials.t2.n"></div>
+                <div class="quote__role" data-i18n="testimonials.t2.r"></div>
+              </div>
+            </div>
+            <div class="card quote">
+              <div class="quote__text" data-i18n="testimonials.t3.q"></div>
+              <div class="quote__meta">
+                <div class="quote__name" data-i18n="testimonials.t3.n"></div>
+                <div class="quote__role" data-i18n="testimonials.t3.r"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="video">
+        <div class="container">
+          <div class="sectionHead">
+            <h2 class="sectionHead__title" data-i18n="video.title"></h2>
+            <p class="sectionHead__subtitle" data-i18n="video.subtitle"></p>
+          </div>
+
+          <div class="video">
+            <video class="video__frame" controls src="./help001.mp4"></video>
+          </div>
+          <!-- <div class="video">
+            <div class="video__frame" role="img" aria-label="Demo Video Placeholder">
+              <div class="video__badge" data-i18n="video.badge"></div>
+              <div class="video__play">
+                <div class="video__playIcon"></div>
+                <div class="video__playText" data-i18n="video.hint"></div>
+              </div>
+              <div class="video__note" data-i18n="video.note"></div>
+            </div> -->
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="download">
+        <div class="container">
+          <div class="sectionHead">
+            <h2 class="sectionHead__title" data-i18n="download.title"></h2>
+            <p class="sectionHead__subtitle" data-i18n="download.subtitle"></p>
+          </div>
+
+          <div class="grid grid--2">
+            <div class="downloadCard">
+              <div class="downloadCard__head">
+                <div class="downloadCard__title" data-i18n="download.win.title"></div>
+                <div class="downloadCard__badge" data-i18n="download.win.badge"></div>
+              </div>
+              <div class="downloadCard__body">
+                <div class="downloadCard__row">
+                  <span class="downloadCard__k" data-i18n="download.win.ver.k"></span>
+                  <a href="versions.html" class="downloadCard__v" id="versionText" style="text-decoration: underline; cursor: pointer; color: inherit;"></a>
+                </div>
+                <div class="downloadCard__row">
+                  <span class="downloadCard__k" data-i18n="download.win.req.k"></span>
+                  <span class="downloadCard__v" data-i18n="download.win.req.v"></span>
+                </div>
+                <div class="downloadCard__buttons">
+                  <a class="btn btn--primary btn--block" data-download="windowsInstaller" href="#" data-i18n="download.win.btn1"></a>
+                  <a class="btn btn--ghost btn--block" data-download="windowsPortable" href="#" data-i18n="download.win.btn2"></a>
+                </div>
+                <div class="downloadCard__fine" data-i18n="download.win.fine"></div>
+              </div>
+            </div>
+
+            <div class="downloadCard">
+              <div class="downloadCard__head">
+                <div class="downloadCard__title" data-i18n="download.next.title"></div>
+                <div class="downloadCard__badge downloadCard__badge--muted" data-i18n="download.next.badge"></div>
+              </div>
+              <div class="downloadCard__body">
+                <div class="steps">
+                  <div class="step">
+                    <div class="step__n">01</div>
+                    <div class="step__t" data-i18n="download.next.s1"></div>
+                  </div>
+                  <div class="step">
+                    <div class="step__n">02</div>
+                    <div class="step__t" data-i18n="download.next.s2"></div>
+                  </div>
+                  <div class="step">
+                    <div class="step__n">03</div>
+                    <div class="step__t" data-i18n="download.next.s3"></div>
+                  </div>
+                </div>
+                <div class="downloadCard__buttons">
+                  <a href="versions.html"  class="btn btn--ghost btn--block" data-i18n="download.next.btn"></a>
+                  <!-- <a href="versions.html" class="btn btn--ghost btn--block" data-link="release"  data-i18n="download.next.btn"></a> -->
+                </div>
+                <div class="downloadCard__fine" data-i18n="download.next.fine"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="faq">
+        <div class="container">
+          <div class="sectionHead">
+            <h2 class="sectionHead__title" data-i18n="faq.title"></h2>
+            <p class="sectionHead__subtitle" data-i18n="faq.subtitle"></p>
+          </div>
+
+          <div class="faq">
+            <button class="faqItem" type="button" aria-expanded="false">
+              <span class="faqItem__q" data-i18n="faq.q1.q"></span>
+              <span class="faqItem__icon"></span>
+              <span class="faqItem__a" data-i18n="faq.q1.a"></span>
+            </button>
+            <button class="faqItem" type="button" aria-expanded="false">
+              <span class="faqItem__q" data-i18n="faq.q2.q"></span>
+              <span class="faqItem__icon"></span>
+              <span class="faqItem__a" data-i18n="faq.q2.a"></span>
+            </button>
+            <button class="faqItem" type="button" aria-expanded="false">
+              <span class="faqItem__q" data-i18n="faq.q3.q"></span>
+              <span class="faqItem__icon"></span>
+              <span class="faqItem__a" data-i18n="faq.q3.a"></span>
+            </button>
+            <button class="faqItem" type="button" aria-expanded="false">
+              <span class="faqItem__q" data-i18n="faq.q4.q"></span>
+              <span class="faqItem__icon"></span>
+              <span class="faqItem__a" data-i18n="faq.q4.a"></span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta__copy">
+              <h2 class="cta__title" data-i18n="cta.title"></h2>
+              <p class="cta__text" data-i18n="cta.subtitle"></p>
+            </div>
+            <div class="cta__actions">
+              <a class="btn btn--primary" href="#download" data-i18n="cta.primary"></a>
+              <a class="btn btn--ghost" data-link="support" href="#" data-i18n="cta.secondary"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__grid">
+        <div class="footer__brand">
+          <div class="footer__name">智心一梦</div>
+          <div class="footer__desc" data-i18n="footer.desc"></div>
+          <div class="footer__copyright">Copyright © <span id="year"></span> ai-nous. All rights reserved.</div>
+        </div>
+        <div class="footer__cols">
+          <div class="footerCol">
+            <div class="footerCol__t" data-i18n="footer.product.t"></div>
+            <a class="footerCol__l" href="#features" data-i18n="footer.product.l1"></a>
+            <a class="footerCol__l" href="#download" data-i18n="footer.product.l2"></a>
+            <a class="footerCol__l" href="#faq" data-i18n="footer.product.l3"></a>
+          </div>
+          <div class="footerCol">
+            <div class="footerCol__t" data-i18n="footer.resources.t"></div>
+            <a class="footerCol__l" data-link="docs" href="#" data-i18n="footer.resources.l1"></a>
+            <a class="footerCol__l" data-link="changelog" href="#" data-i18n="footer.resources.l2"></a>
+            <a class="footerCol__l" data-link="release" href="#" data-i18n="footer.resources.l3"></a>
+          </div>
+          <div class="footerCol">
+            <div class="footerCol__t" data-i18n="footer.contact.t"></div>
+            <a class="footerCol__l" data-link="support" href="#" data-i18n="footer.contact.l1"></a>
+            <a class="footerCol__l" data-link="privacy" href="#" data-i18n="footer.contact.l2"></a>
+            <a class="footerCol__l" data-link="github" href="#" data-i18n="footer.contact.l3"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <button id="scrollTopBtn" class="scrollTop" aria-label="Scroll to top">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M18 15l-6-6-6 6"/>
+      </svg>
+    </button>
+
+    <button id="scrollBottomBtn" class="scrollTop" aria-label="Scroll to bottom">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M6 9l6 6 6-6"/>
+      </svg>
+    </button>
+
+    <script defer src="./main.js"></script>
+  </body>
+</html>

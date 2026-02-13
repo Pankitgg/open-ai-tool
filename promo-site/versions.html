@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>智心一梦个人助手 - 版本历史</title>
+    <meta name="theme-color" content="#f4e4bc" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%2064%2064%27%3E%3Cdefs%3E%3CradialGradient%20id%3D%27g%27%20cx%3D%2730%25%27%20cy%3D%2730%25%27%20r%3D%2770%25%27%3E%3Cstop%20stop-color%3D%27%237cb9a8%27/%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%2385cdca%27/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect%20width%3D%2764%27%20height%3D%2764%27%20rx%3D%2724%27%20fill%3D%27url(%23g)%27/%3E%3Cpath%20d%3D%27M20%2038c6-2%208-10%2012-10s6%208%2012%2010%27%20stroke%3D%27white%27%20stroke-width%3D%275%27%20fill%3D%27none%27%20stroke-linecap%3D%27round%27/%3E%3C/svg%3E" />
+    <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "ux026pd418");
+    </script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="bg">
+      <div class="bg__glow bg__glow--a"></div>
+      <div class="bg__glow bg__glow--b"></div>
+      <div class="bg__grid"></div>
+    </div>
+
+    <header class="header">
+      <div class="container header__inner">
+        <a class="brand" href="index.html#top" aria-label="智心一梦">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span class="brand__name">智心一梦</span>
+          <span class="brand__badge" data-i18n="nav.badge"></span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <a class="nav__link" href="index.html#features" data-i18n="nav.features"></a>
+          <a class="nav__link" href="index.html#scenarios" data-i18n="nav.scenarios"></a>
+          <a class="nav__link" href="index.html#ecosystem" data-i18n="nav.ecosystem"></a>
+          <a class="nav__link" href="index.html#testimonials" data-i18n="nav.testimonials"></a>
+          <a class="nav__link" href="index.html#download" data-i18n="nav.download"></a>
+          <a class="nav__link" href="index.html#faq" data-i18n="nav.faq"></a>
+        </nav>
+
+        <div class="header__actions">
+          <button class="chip" type="button" id="langToggle" aria-label="Language Toggle">
+            <span class="chip__dot"></span>
+            <span class="chip__text" data-i18n="nav.lang"></span>
+          </button>
+          <a class="btn btn--primary" href="index.html#download" data-i18n="nav.cta"></a>
+          <a href="https://github.com/Pankitgg/open-ai-tool" class="btn btn--ghost" target="_blank" aria-label="GitHub">
+            <svg height="20" width="20" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="section">
+        <div class="container">
+          <div class="sectionHead">
+            <h2 class="sectionHead__title" data-i18n="versions.title"></h2>
+            <p class="sectionHead__subtitle" data-i18n="versions.subtitle"></p>
+          </div>
+          
+          <div class="panel">
+            <div style="overflow-x: auto;">
+              <table style="width: 100%; border-collapse: collapse; text-align: left;">
+                <thead>
+                  <tr style="border-bottom: 1px solid var(--border);">
+                    <th style="padding: 16px;" data-i18n="versions.colVer"></th>
+                    <th style="padding: 16px;" data-i18n="versions.colDate"></th>
+                    <th style="padding: 16px;" data-i18n="versions.colDesc"></th>
+                    <th style="padding: 16px;" data-i18n="versions.colAction"></th>
+                  </tr>
+                </thead>
+                <tbody id="versionList">
+                  <!-- Populated by JS -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__grid">
+        <div class="footer__brand">
+          <div class="footer__name">智心一梦</div>
+          <div class="footer__desc" data-i18n="footer.desc"></div>
+          <div class="footer__copyright">Copyright © <span id="year"></span> ai-nous. All rights reserved.</div>
+        </div>
+        <div class="footer__cols">
+          <div class="footerCol">
+            <div class="footerCol__t" data-i18n="footer.product.t"></div>
+            <a class="footerCol__l" href="index.html#features" data-i18n="footer.product.l1"></a>
+            <a class="footerCol__l" href="index.html#download" data-i18n="footer.product.l2"></a>
+            <a class="footerCol__l" href="index.html#faq" data-i18n="footer.product.l3"></a>
+          </div>
+          <div class="footerCol">
+            <div class="footerCol__t" data-i18n="footer.resources.t"></div>
+            <a class="footerCol__l" data-link="docs" href="#" data-i18n="footer.resources.l1"></a>
+            <a class="footerCol__l" data-link="changelog" href="#" data-i18n="footer.resources.l2"></a>
+            <a class="footerCol__l" data-link="release" href="#" data-i18n="footer.resources.l3"></a>
+          </div>
+          <div class="footerCol">
+            <div class="footerCol__t" data-i18n="footer.contact.t"></div>
+            <a class="footerCol__l" data-link="support" href="#" data-i18n="footer.contact.l1"></a>
+            <a class="footerCol__l" data-link="privacy" href="#" data-i18n="footer.contact.l2"></a>
+            <a class="footerCol__l" data-link="github" href="#" data-i18n="footer.contact.l3"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script defer src="./main.js"></script>
+    <script>
+      function renderVersions() {
+        const list = document.getElementById('versionList');
+        if (!list || !siteConfig.versions) return;
+
+        list.innerHTML = siteConfig.versions.map(v => `
+          <tr style="border-bottom: 1px solid var(--border);">
+            <td style="padding: 16px; font-weight: bold; white-space: nowrap;">v${v.ver}</td>
+            <td style="padding: 16px; color: var(--muted); font-size: 0.9em; white-space: nowrap;">${v.date}</td>
+            <td style="padding: 16px; color: var(--muted); line-height: 1.5;">${v.desc}</td>
+            <td style="padding: 16px; white-space: nowrap;">
+              <a href="${v.file.startsWith('http') ? v.file : 'version/' + v.file}" class="btn btn--ghost" style="padding: 8px 16px; font-size: 0.85em;">
+                <span data-i18n="versions.download">Download</span>
+              </a>
+            </td>
+          </tr>
+        `).join('');
+        
+        const currentLang = localStorage.getItem("promoLang") || "zh";
+        if (typeof applyI18n === 'function') {
+             applyI18n(currentLang);
+        }
+      }
+
+      window.addEventListener('DOMContentLoaded', () => {
+        // Wait a tick for main.js to potentially finish its boot if needed, though defer should handle order.
+        // main.js is deferred, so it runs after DOM parsing but before DOMContentLoaded (usually).
+        // To be safe, we can check if siteConfig exists.
+        if (typeof siteConfig !== 'undefined') {
+            renderVersions();
+        } else {
+            // Fallback or retry
+            setTimeout(renderVersions, 100);
+        }
+      });
+    </script>
+  </body>
+</html>
